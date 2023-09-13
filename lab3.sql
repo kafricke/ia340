@@ -33,5 +33,8 @@ values('c4','facebook','r1','p3@jmu.edu')
 		
 --q2.6
 --insert course first, then delete p1 from the professor table because p1 needs to be deleted from the professor table 
+update course 
+set p_email = 'p3@jmu.edu'
+where p_email = 'p1@jmu.edu';
 
 
