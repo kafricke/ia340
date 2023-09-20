@@ -40,4 +40,7 @@ where p_email = 'p1@jmu.edu';
 delete from professor 
 where p_email = 'p1@jmu.edu'
 
+--q2.7
+select * from enroll
+
 
